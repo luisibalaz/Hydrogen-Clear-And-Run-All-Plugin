@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Hydrogen: Clear And Run'
+      'submenu': [
+        {
+          'label': 'Clear and run'
+          'command': 'hydrogen-clear-and-run:clear-and-run'
+        }
+      ]
+    ]
+  }
+]

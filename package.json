@@ -1,0 +1,33 @@
+{
+  "name": "hydrogen-clear-and-run",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "Plugin for Hydrogen Clear And Run All",
+  "keywords": [
+    "hydrogen",
+    "jupyter",
+    "ipython",
+    "run",
+    "all",
+    "clear",
+    "toggle",
+    "nyc_output"
+  ],
+  "consumedServices": {
+    "hydrogen.provider": {
+      "versions": {
+        "^1.0.0": "consumeHydrogen"
+      }
+    }
+  },
+  "repository": "https://github.com/luisibalaz/Hydrogen-Clear-And-Run-All-Plugin",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "scripts": {
+  },
+  "dependencies": {},
+  "package-deps": [
+    "hydrogen"
+  ],
+}

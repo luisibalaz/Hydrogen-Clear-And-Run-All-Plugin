@@ -27,7 +27,5 @@
   "scripts": {
   },
   "dependencies": {},
-  "package-deps": [
-    "hydrogen"
-  ],
+  "package-deps": ["hydrogen"]
 }
